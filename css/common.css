@@ -32,3 +32,162 @@ li {
   width: calc((100% - 48px) / 3);
   height: 300px;
 }
+
+/* TASK-3 */
+#name-input {
+  width: 360px;
+  height: 40px;
+  margin: 0;
+  display: flex;
+  outline: transparent;
+  border: 2px solid #808080;
+  border-radius: 4px;
+  padding-left: 16px;
+}
+#name-input:hover,
+#name-input:focus {
+  border: 2px solid rgb(51, 41, 41);
+}
+
+/* TASK-4 */
+.login-form {
+  background-color: FFFFFF;
+  display: flex;
+  flex-direction: column;
+  width: 408px;
+  align-items: flex-start;
+  gap: 8px;
+  padding-top: 16px;
+  padding-left: 24px;
+}
+.login-form input {
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  display: flex;
+  outline: transparent;
+  border: 1px solid #808080;
+  font: 400 16px / 1.5 "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding-left: 12px;
+  transition: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+.login-form input:hover {
+  border-color: #212121;
+}
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font: 400 16px / 1.5 "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.login-form button {
+  background: #4e75ff;
+  font: 500 16px / 1.5 "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.login-form button:hover {
+  background: #6c8cff;
+}
+/* TASK-5 */
+
+.widget p {
+  font: 400 16px / 1.5 "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.widget button {
+  background: #4e75ff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 500 16px / 1.5 "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  color: #fff;
+  transition: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.widget button:hover {
+  background: #6c8cff;
+}
+
+/* TASK-6 */
+#controls {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin: 16px auto;
+  align-items: center;
+  background: #f6f6fe;
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: 104px;
+  justify-content: center;
+}
+
+#controls input {
+  display: flex;
+  outline: transparent;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  width: 150px;
+  height: 40px;
+  font: 400 16px / 1.5 "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding-left: 72px;
+}
+[data-create] {
+  background: #4e75ff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  border: none;
+}
+
+[data-create]:hover {
+  background: #6c8cff;
+}
+
+[data-destroy] {
+  background: #ff4e4e;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  border: none;
+}
+
+[data-destroy]:hover {
+  background: #ff7070;
+}
+[data-create],
+[data-destroy] {
+  font: 500 16px / 1.5 "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  color: #fff;
+  transition: 300ms;
+}
